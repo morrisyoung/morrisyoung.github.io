@@ -1,20 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
   <title>Shuo Yang</title>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<h1>Shuo Yang</h1>
-<p style="color:gray">I want to be a research scientist who can analyse, judge and code my ideas into reality. I also want to be a teacher who can affect other people's lives. I believe I'm right on the way.</p>
+  <header>
+<!---
+  <img id="pic" src="/Users/shuoyang/website/morrisyoung.github.io/images/YiXiu3.jpg" alt="a picture of me in front of a whiteboard..."/,  style="width:260px;height:170px">
+--->
+  <img id="pic" src="/images/YiXiu3.jpg" alt="a picture of me in front of a whiteboard..."/,  style="width:260px;height:170px">
+  <h1 align="center">Shuo Yang</h1>
+<!---  <h3>Machine Teacher</h3> --->
+
+  <figure>
+  <blockquote>I want to be a research scientist who can analyse, judge and put his own ideas into reality. I also want to be a teacher who can affect other people's lives. I believe I'm right on the way.</blockquote>
+  </figure>
+
+  <ul id="navbar">
+    <li><a href="#publications">[Papers]</a></li>
+    <li><a href="#talks">[Talks]</a></li>
+    <li><a href="#resources">[Softwares]</a></li>
+    <li><a href="#fun">[Miscellaneous]</a></li>
+    <li><a href="#blog">[Blog]</a></li>
+    <li><a href="#contact">[Contact]</a></li>
+  </ul>
+  
+
+  </header>
+
+  <!-- force a newline -->
+  <!-- <p>&nbsp;</p> -->
+
+  <p><b>My Research Interests:</b> Computational Biology; Machine Learning; Algorithm Design, Analysis and Implementation.</p>
 
 
-<p>Shuo will get his M.Sc. in Computer Science from Columbia Engineering this December. He plans to work as a research assistant with Profs. <a href="http://www.cs.columbia.edu/~itsik/home.html">Itsik Pe'er</a> and <a href="http://www.c2b2.columbia.edu/danapeerlab/html/">Dana Pe'er</a> in the following two years, focusing on Genetics/Gene Expression. Shuo has been working in Itsik Pe'er Computational Genomics Lab for one year, focusing on Population Genetics (Identity by Descent and Demongraphic Inference). Shuo plans to enroll a Computer Science Ph.D. program in the near future, with a focus on Computational Biology and Machine Learning.<p>
+  <p><b>Current Position:</b> Shuo has been working in Computational Genomics Lab and studying in Computer Science Department of Columbia University since September 2013. Shuo will get his M.Sc. in Computer Science this December. He plans to work as a research assistant with Profs. <a href="http://www.cs.columbia.edu/~itsik/home.html">Itsik Pe'er</a> and <a href="http://www.c2b2.columbia.edu/danapeerlab/html/">Dana Pe'er</a> in the following two years, focusing on Genetics/Gene Expression. Also, he plans to enroll a Computer Science Ph.D. program in the near future, with a focus on Computational Biology and Machine Learning.</p>
+  
+  <p><b>Collaborators and Friends:</b> Dr. <a href="http://http://shaicarmi.org/">Shai Carmi</a> and <a href="http://www.columbia.edu/~jx2176/">James Xue</a>.</p>
 
-<img src="/images/YiXiu.jpg" alt="headshot", style="width:250px;height:328px">
+
+
+  <h2 id="publications">Papers and Manuscripts</h2>
+  <h3 id="publications">Computational Biology</h3>
+  
+  <ol id="pubs">
+  
+  <li><b>S. Yang</b>, S. Carmi, I. Pe'er. "Simulation Based Approach for Demongraphic Inference via Haplotype Sharing". (in preparation).</li>
+  
+  <li><b>S. Yang</b>, S. Carmi, I. Pe'er. "Fast Registering Ancestral Recombination Graphs". (submitted to RECOMB2015).</li>
+    
+    
 <!--
-<img src="file:///Macintosh HD/Users/shuoyang/website/morrisyoung.github.io/images/YiXiu.jpg" alt="headshot", style="width:270px;height:328px">
+    <li>M. Kambadur, <b>K. Tang</b>, M. Kim. "ParaShares: Finding the Important Basic Blocks in Multithreaded Programs." Euro-Par 2014. <a href="pdf/2014_EuroPar_ParaShares.pdf">[pdf]</a> <a href="http://dblp.uni-trier.de/rec/bibtex/conf/europar/KambadurTK14">[bib]</a></li>
 -->
+
+    
+  </ol>
+  
+  
+  
+  
+  <h2 id="talks">Invited Talks</h2>
+
+<!--
+  <dl>
+    <dt>Adaptive Anonymity via b-Matching</dt>
+    <dd>(UMass Amherst Machine Learning and Friends Lunch, February 2014) <a href="pdf/2014_UMAmherst_Anonymity.pdf">[slides]</a></dd>
+  </dl>
+ -->
+
+
+  
+  
+
+  <h2 id="resources">Softwares</h2>
+  <dl>
+    <dt>Fast IBD Extraction from Ancestral Recombination Graphs <a href="https://github.com/morrisyoung/IBDdetection">[code]</a></dt>
+    <dd>Identity by Descent (IBD) segments are well defined as the long haplotype sharing between two individuals in a cohort. There are lots of IBD related research works, both in theoretical aspect and applied aspect. In all of these works, a very important problem is that, we always need some ground true IBD segments as the reference. This work is focused on extracting these ground true IBD segments directly from ancestral recombination graphs (ARG), in an efficient manner. This work will become an helpful tool for other related research, like theory verification of IBD, simulation based approach for demographic inference.
+    </dd>
+  </dl>
+
+
+
+
+  <h2 id="fun">Miscellaneous</h2>
+  <p>Shuo's hometown is <a href="http://en.wikipedia.org/wiki/Qingdao">Qingdao</a>, a very beautiful coastal city in eastern China. Though growing up beside the sea, embarrassingly he can't swim.</p>
+  <p>Shuo was once crazy about heavy metal in his undergraduate, especially for <a href="http://www.metallica.com/">Metallica</a>. He and his brothers organized a band, called "Cubic Band", which means extremely cool in Chinese. Thouth it's only a very small band and not very professional, and they had only several small performance, those are all life-long memory for him.</p>
+  <p>Shuo likes basketball, though playing basketball is only his high school thing. He likes Michael Jordan very much, like many people else. He is inspired by Jordan's passion about what he loves, and Shuo also want to be a man like that, passionate and dedicated about what he wants to do and to be in his life.</p>
+
+
+
+
+  <h2 id="blog">Blog</h2>
+
+
+
+
+
+
+  <h2 id="contact">Contact</h2>
+<b>Mailing Address:</b>
+<br>711 West, 171 Street, Apt#26
+<br>New York, NY 10032
+<br>
+<br>
+<b>Tel:</b> 917-935-9084<br>
+
+<b>E-mail:</b>
+<a href="sdmorrisys@gmail.com"><tt>sdmorrisys@gmail.com</tt></a> or 
+<a href="sy2515@columbia.edu"><tt>sy2515@columbia.edu</tt></a>
+
+
+
+<div id="footer">
+<p>Designed by <a href="shuo-yang.com">Shuo</a>; Hosted in <a href="https://github.com/morrisyoung/morrisyoung.github.io">Github</a>.</p>
+</div>
 
 
 </body>
