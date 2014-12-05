@@ -6,13 +6,14 @@
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   
- 
- 
- <script type="text/javascript">
+  
+  
+<script type="text/javascript">
 onload = function(){
-    document.getElementById("lastModified").innerHTML = "Page last changed " + document.lastModified.split(" ")[0];
+	var x = new Date(document.lastModified);
+    document.getElementById("lastModified").innerHTML = "Last updated: " + x;
 }
-</script>  
+</script>   
   
   
 </head>
@@ -158,7 +159,7 @@ onload = function(){
   <p>Designed by <a href="http://shuo-yang.com">Shuo</a>; Hosted in <a href="https://github.com/morrisyoung/morrisyoung.github.io">Github</a>; Last updated: 
   
   
-<!-- #BeginDate format:acAm1m -->Fri, December 5, 2014  15:36<!-- #EndDate -->
+<!-- #BeginDate format:acAm1m -->Fri, December 5, 2014  15:39<!-- #EndDate -->
 
 
   </p>
