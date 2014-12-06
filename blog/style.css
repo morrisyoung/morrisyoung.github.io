@@ -9,6 +9,8 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -o-hyphens: auto;
+  padding:0;
+  height:100%;
 };
 
 #container {
