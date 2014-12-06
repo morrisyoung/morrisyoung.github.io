@@ -35,6 +35,8 @@ body {
 
 #footer {
     background-color:WhiteSmoke;
+	color:black;
+    clear:both;
     text-align:center;
     padding:5px;
 	position:absolute;
