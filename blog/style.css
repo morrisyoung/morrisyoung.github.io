@@ -11,9 +11,38 @@ body {
   -o-hyphens: auto;
 };
 
-header {
-  text-align: center;
+#container {
+	min-height:100%;
+	position:relative;
+}
+
+#header {
+  background-color:WhiteSmoke;
+  color:black;
+  clear:both;
+  text-align:left;
+  padding:5px;
+  position:absolute;
+  width:700px;
 };
+
+#body {
+  padding:5px;
+  padding-bottom:70px;
+  padding-top:70px;
+  width:700px;
+}
+
+#footer {
+    background-color:WhiteSmoke;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+	position:absolute;
+	bottom:0;
+	width:700px;
+}
 
 blockquote:before {
   display: block;
@@ -65,19 +94,11 @@ dt {
   margin-bottom: 1em;
 }
 
-#footer {
-    background-color:WhiteSmoke;
-    color:black;
-    clear:both;
-    text-align:center;
-    padding:5px; 
-}
-
 h2 {
     display: block;
     font-size: 2em;
     margin-top: 0em;
-    margin-bottom: 0.83em;
+    margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
