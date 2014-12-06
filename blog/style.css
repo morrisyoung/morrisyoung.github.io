@@ -11,7 +11,7 @@ body {
   -o-hyphens: auto;
   padding:0;
   height:100%;
-}
+};
 
 #container {
 	min-height:100%;
