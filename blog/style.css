@@ -1,6 +1,14 @@
+html {
+  margin: 0;
+  padding:0;
+  height: 100%;
+}
+
 body {
   max-width: 710px;
   margin: 0 auto;
+  padding:0;
+  height:100%;
   font-size: 10pt;
   text-align: justify;
   text-justify: inter-word;
@@ -9,14 +17,13 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -o-hyphens: auto;
-  padding:0;
-  height:100%;
 };
 
 #container {
-	position:relative;
-	height: auto;
 	min-height:100%;
+	height: auto !important;
+	height: 100%; /*IE6不识别min-height*/
+	position:relative;
 }
 
 #header {
@@ -35,18 +42,19 @@ body {
   padding-top: 2cm;;
   padding-bottom: 2cm;
   width:700px;
+  margin: 0 auto;
 }
 
 #footer {
+	position:absolute;
+	bottom:0;
+	width:700px;
+	height: 30px;
     background-color:WhiteSmoke;
 	color:black;
     clear:both;
     text-align:center;
     padding:5px;
-	position:absolute;
-	bottom:0;
-	width:700px;
-	height: 30px;
 }
 
 blockquote:before {
