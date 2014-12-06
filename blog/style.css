@@ -53,6 +53,7 @@ body {
 	bottom:0;
 	width:700px;
 	height: 30px;
+	margin-top: -2cm;/*等于footer的高度*/
     background-color:WhiteSmoke;
 	color:black;
     clear:both;
