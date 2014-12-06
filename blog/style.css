@@ -11,7 +11,7 @@ body {
   -o-hyphens: auto;
   padding:0;
   height:100%;
-};
+}
 
 #container {
 	min-height:100%;
@@ -26,7 +26,7 @@ body {
   padding:5px;
   position:absolute;
   width:700px;
-};
+}
 
 #body {
   padding:5px;

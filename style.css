@@ -9,11 +9,11 @@ body {
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -o-hyphens: auto;
-};
+}
 
 header {
   text-align: center;
-};
+}
 
 blockquote:before {
   display: block;
