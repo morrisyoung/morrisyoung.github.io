@@ -52,8 +52,8 @@ body {
 	position:relative;
 	bottom:0;
 	width:700px;
-	height: 40px;
-	margin-top: -40px;/*等于footer的高度*/
+	height: 38px;
+	margin-top: -38px;/*等于footer的高度*/
     background-color:WhiteSmoke;
 	color:black;
     clear:both;
