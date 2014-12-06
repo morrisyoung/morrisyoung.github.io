@@ -14,9 +14,9 @@ body {
 };
 
 #container {
-	min-height:100%;
 	position:relative;
 	height: auto;
+	min-height:100%;
 }
 
 #header {
@@ -47,6 +47,7 @@ body {
 	bottom:0;
 	width:700px;
 	height: 30px;
+	left:0;
 }
 
 blockquote:before {
