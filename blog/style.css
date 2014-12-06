@@ -49,6 +49,12 @@ body {
 	height: 30px;
 }
 
+<!--[if IE 6]->
+<style>
+#wapper{height:100%;} /* IE在高度不够时会自动撑开层*/
+</style>
+<![endif]-->
+
 blockquote:before {
   display: block;
   content: "\201C";
